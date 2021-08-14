@@ -141,7 +141,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df.loc[df['day_of_week']==day]
 
-
+    #Loop for displaying 5 lines of filtered raw data based on user parameters (y continues the loop)
     i=0
     j=5
     response = input(
