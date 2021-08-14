@@ -1,3 +1,6 @@
+"""
+Please see readme to get a full project description, files used and references
+"""
 import time
 #project has been accepted
 import matplotlib.pyplot as plt
