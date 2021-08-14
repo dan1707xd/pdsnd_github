@@ -48,6 +48,7 @@ def get_filters():
             else:
                 print("The city you entered seems wrong! Please try again or restart the program!")
         # get user input for month (all, january, february, ... , june)
+        # create a dictionary here to map shorcuts for month names
         dict_month_names = {'jan': 'january', 'feb': 'february', 'mar': 'march','may': 'may','jun': 'june','all':'all'}
         check = 0
         while check == 0:
@@ -69,7 +70,7 @@ def get_filters():
             #months = list(dict_month_names.values())
             #month = months.index(month1)+1
         # get user input for day of week (all, monday, tuesday, ... sunday)
-
+        # create a dictionary here to map shorcuts for day names
         dict_day_names = {'mon':'monday','tue':'tuesday','wed':'wednesday','thu':'thursday','fri':'friday','sat':'saturday','sun':'sunday','all':'all'}
         check=0
         while check == 0:
