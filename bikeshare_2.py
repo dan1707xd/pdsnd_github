@@ -339,6 +339,7 @@ def station_stats(df,city,month,day):
             #print(final_comp_month)
 
             ax=final_comp_month.plot(kind='bar')
+            #Code loop to annotate bars in barchart
             i = 0
             for lbl in ax.patches:
 
